@@ -1,0 +1,29 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+$wpbg: #3858e9;
+$wplight: #f6f6f6;
+.wp-block-wp-contributions-block {
+	background-color: $wpbg;
+	color: $wplight;
+	padding: 10px;
+	border: 5px double $wplight;
+	width: 50%;
+
+	label {
+		color: $wplight;
+
+	}
+
+	.contrib-item {
+		max-width: 100%;
+		padding: 1%;
+	}
+
+	.contrib-title {
+		font-size: 1rem;
+	}
+}
